@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .container{
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            /* flex-wrap: wrap-reverse;
+            flex-direction: row-reverse; */
+            flex-flow: row-reverse wrap-reverse;    /* here both flex wrap and flex direction in one*/
+        }
+        .box{
+            width: 380px;
+            height: 400px;
+            border: 2px solid green;
+            padding: 8px;
+            margin: 5px;
+        }
+        #box5{
+           margin: 0px auto; 
+        }
+    </style>
+</head>
+<body>
+    <h2> Q2. Create a  Flex and use images in it.</h2>
+    <div class="container">
+        <img class="box" id="box1" src="https://images.unsplash.com/photo-1633724056138-94c2eeef11ff?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+        <img class="box" id="box2" src=https://images.unsplash.com/photo-1633717631800-7242020f0eee?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60 alt="">
+        <img class="box" id="box3" src="https://images.unsplash.com/photo-1633710043114-e33b94c37772?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+        <img class="box" id="box4" src="https://images.unsplash.com/photo-1631543516632-c104d7922a4d?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDU5fDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+        <img class="box" id="box5" src="https://images.unsplash.com/photo-1633764088641-833af773e177?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw1fHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60" alt="">
+    </div>
+</body>
+</html>
